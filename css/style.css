@@ -1,0 +1,676 @@
+/* Global appliance */
+* {
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+}
+
+/* White text appliance to multiple classes*/
+nav ul li a,
+.login-button,
+.workswith,
+.podcastboxtext,
+.podcastboxmain,
+.podcastboxread,
+.podcast,
+footer,
+.footer-right i,
+.gooseformelement {
+    color: white;
+}
+
+/* Display: Flex appliance to multiple classes*/
+header,
+section,
+.container-buttons1,
+.container-buttons2,
+.sparkleslinks,
+.sparklesrechts,
+.workswith,
+.workswithbuttons,
+.buttontext,
+.helpateverystep,
+.weeklydigest,
+.weeklycontainer,
+.pressheader,
+.pressboxes,
+.box,
+.podcasts,
+.telemailcont,
+.telegram,
+.telegramicon,
+.email,
+.emailicon,
+footer,
+.footer-center,
+.footer-right,
+.heroboxes,
+.johndoe {
+    display: flex;
+}
+
+/*  */
+header {
+    padding-right: 10vw;
+    background-color: #0a1117;
+    height: 6vw;
+    width: 89%;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0a1117;
+    margin-left: 80px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #5c5c5c;
+    transition: all 1s;
+}
+
+.login-button {
+    text-align: center;
+    width: 6vw;
+    padding: 10px 5px;
+    background-color: #243241;
+    border-radius: 10px;
+}
+
+.login-button:hover {
+    background-color: #363c43;
+}
+
+body {
+    background-color: #0a1117;
+}
+
+section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue
+}
+
+.maintext {
+    padding-top: 100px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.mainsubtext {
+    font-family: 'Montserrat' !important;
+    padding-top: 20px;
+    width: 400px;
+    padding-bottom: 40px;
+}
+
+.getstartedbutton {
+    font-weight: bolder;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: #0a1117;
+    background-color: rgb(232, 160, 232);
+    box-shadow: rgb(225, 153, 225) 0 0 20px 1px;
+}
+
+.getstartedbutton:hover {
+    background-color: rgb(134, 95, 134);
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.framearrow {
+    padding-top: 100px;
+}
+
+.readyforeveryproject {
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+.sparkles2 {
+    position: relative;
+    right: 100px;
+}
+
+.container-buttons1 {
+    margin-top: 50px;
+}
+
+.container-buttons2 {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.button {
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 12px;
+    height: 30px;
+    background-color: #182632;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #363c43;
+    opacity: 100%;
+    transition: all 0.5s;
+    scale: 1.1;
+}
+
+.investment {
+    color: #FFB4D3;
+    width: 170px;
+}
+
+.startup {
+    color: #FFC24C;
+    width: 140px;
+}
+
+.service {
+    color: #D387F7;
+    width: 140px;
+}
+
+.community {
+    color: #77E6FF;
+    width: 180px;
+}
+
+.impact {
+    color: #23C9DE;
+    width: 140px;
+}
+
+.defi {
+    color: #FF9E9E;
+    width: 120px;
+}
+
+.more {
+    color: #707F8D;
+    width: 110px;
+}
+
+.projectbutton {
+    font-family: 'Montserrat' !important;
+    font-weight: 800;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #FFB4D3;
+    width: 345px;
+    top: -20px;
+    right: -385px;
+    border-radius: 20px;
+    color: #0a1117;
+    z-index: 2;
+}
+
+.projectbutton:hover {
+    scale: 1.2;
+    opacity: 100%;
+    transition: all 0.5s;
+    box-shadow: #FFB4D3 0 0 10px 5px;
+}
+
+.lijst {
+    padding-top: 30px;
+}
+
+.lijstinfo {
+    font-size: 30px;
+}
+
+.lijstitem {
+    font-size: 30px;
+    color: #5c5c5c;
+    border-radius: 10px;
+    padding: 5px;
+    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.lijstitem:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 160, 232);
+    box-shadow: 0 0 20px 1px rgba(232, 160, 232, 0.8);
+    transform: scale(1.05);
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.sparkleslinks {
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+
+.sparklesrechts {
+    position: relative;
+    left: 150px;
+}
+
+.workswith {
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+    padding-top: 30px;
+}
+
+.buttonlogo {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #121E28;
+    border-color: #2A3744;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 10px;
+}
+
+.buttontext {
+    font-size: large;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.buttonlogo:hover {
+    background-color: #2A3744;
+    transition: all 1s;
+}
+
+.helpateverystep {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.profilepictures {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.profilepic {
+    margin: 5px
+}
+
+.profilepic:hover {
+    scale: 1.3;
+    transition: all 1s;
+}
+
+.helpateverysteptraits {
+    font-size: larger;
+    width: 30vw;
+    align-self: center;
+}
+
+.weeklydigest {
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: #121E28;
+    border-radius: 10px;
+    border-color: #2A3744;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.weeklycontainer {
+    height: 70px;
+    width: 500px;
+}
+
+.weeklydigesttext {
+    color: #9AAFC3;
+    margin: 15px;
+}
+
+.weeklydigesttextbox {
+    background-color: #10151A;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #9AAFC3;
+    text-align: left;
+    margin: 15px;
+}
+
+.weeklysubscribe {
+    background-color: #CEAAFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #10151A;
+    margin: 15px;
+}
+
+.pressheader {
+    margin-top: 100px;
+    width: 900px;
+    justify-content: space-between;
+
+}
+
+.seeall {
+    color: #8395A7;
+}
+
+.box {
+    flex-direction: column;
+    color: #0a1117;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    margin: 10px;
+}
+
+.decrypt {
+    background-color: #77E6FF;
+    font-weight: bold;
+}
+
+.blockworks {
+    background-color: #E2C1F9;
+    font-weight: bold;
+}
+
+.techcrunch {
+    background-color: #DBE268;
+    font-weight: bold;
+}
+
+.presssparkle {
+    position: relative;
+    right: 200px;
+}
+
+.pressboxmain {
+    margin-top: 10px;
+    color: #10151A;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.pressboxtext {
+    color: #10151A;
+    font-weight: 100;
+    text-align: left;
+}
+
+.pressboxread {
+    font-weight: bold;
+    color: #0a1117;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.podcastsparkle {
+    position: relative;
+    right: 520px;
+}
+
+.podcastboxtext {
+    font-weight: 100;
+    text-align: left;
+}
+
+.podcastboxmain {
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.podcastboxread {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.podcast {
+    background-color: #121E28;
+    font-weight: bold;
+}
+
+.podcasts {
+    margin-bottom: 100px;
+}
+
+.gooseidea {
+    margin-top: 100px;
+}
+
+.gooseidea2 {
+    color: #5A6C7E;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.telemailcont {
+    justify-content: flex-start;
+    margin-right: 5px;
+    margin-bottom: 100px;
+}
+
+.telegram {
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #FFC803;
+    border-radius: 5px;
+    color: black;
+    margin: 10px;
+}
+
+.telegram:hover {
+    scale: 1.2;
+    transition: all 1s;
+}
+
+.telegramicon {
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.img-telegram {
+    width: 30%;
+}
+
+.telemailcont {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.text-telegram {
+    height: 70%;
+    text-align: left;
+}
+
+.email {
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #E2C1F9;
+    border-radius: 5px;
+    color: black;
+    margin: 10px;
+}
+
+.email:hover {
+    scale: 1.2;
+    transition: all 1s;
+}
+
+.emailicon {
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.img-email {
+    width: 30%;
+}
+
+.text-email {
+    height: 70%;
+    text-align: left;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121E28;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    height: 100px;
+    /* Specify the height of the footer to avoid large padding */
+}
+
+.footer-center {
+    position: relative;
+    left: 140px;
+    justify-content: center;
+    gap: 40px;
+    /* This replaces the large margins with gaps between elements */
+    flex-grow: 1;
+    align-items: center;
+    /* Ensure elements are vertically centered */
+}
+
+.footer-text {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.footer-text:hover {
+    color: #FFC803;
+}
+
+.footer-right {
+    justify-content: flex-end;
+    gap: 20px;
+    /* Space out the icons using gap instead of margin */
+    align-items: center;
+    /* Vertically align icons */
+    width: 20%;
+    position: relative;
+    right: 300px;
+}
+
+.footer-right i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footerlogo {
+    display: inline-block;
+    width: 30px;
+}
+
+.gooseform {
+    background-color: #121E28;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.gooseformtitle {
+    margin: 20px;
+}
+
+.gooseformelement {
+    background-color: #121E28;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #2A3744;
+    width: 400px;
+    border-style: solid;
+}
+
+.heroboxes {
+    justify-content: space-between;
+    width: 800px;
+    margin-bottom: 200px;
+}
+
+.johndoe {
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.johndoepic {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.johndoetext {
+    align-self: left;
+    text-align: left;
+    color: #0a1117;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.herocontact {
+    align-self: right;
+    text-align: right;
+    color: #0a1117;
+    font-weight: 900;
+}
+
+.submitcont {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+}
+
+.submit {
+    justify-content: flex-end;
+    width: 70px;
+    background-color: #CEAAFF;
+    font-weight: 900;
+    padding: 7px;
+    border-radius: 10px;
+    color: black;
+}
+
+.submit:hover {
+    background-color: #b17cfa;
+    transition: all 0.3s;
+}
