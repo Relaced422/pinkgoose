@@ -1,3 +1,54 @@
-.test {
-    color: #000000;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    margin: 1vw;
+    align-items: center;
+}
+
+ul {
+    justify-content: space-around;
+    list-style-type: none;
+}
+/* ------------------------------------- */
+/* Flex Positioning */
+/* Display Flex */
+header, nav, ul, ul li a {
+    display: flex;
+}
+/* Justify Content - Center */
+header {
+    justify-content: space-between;
+}
+
+/* ------------------------------------- */
+/* Colors */
+/* background color black main */
+
+header {
+    background-color: #0A1117;
+}
+/* ------------------------------------- */
+/* Margins */
+/* Margin 1vw */
+#pinkgoose-logo, ul, #login-button {
+    margin: 1vw;
+}
+/* ------------------------------------- */
+/* Images */
+header img {
+    max-height: 200px;
+}
+
+/* ------------------------------------- */
+/* Text */
+/* Bold text */
+.bold-text {
+    font-weight: bold;
 }
